@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 import { connection } from "../../data/connection";
-import { Turmas } from "../../types"
+import { Turmas } from "../../models/types"
 
 
 export const getAllTurmas = async (req: Request, res: Response): Promise<void> =>{
