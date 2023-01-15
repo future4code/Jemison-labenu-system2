@@ -1,2 +1,57 @@
+# Busca todas as relações entre docentes e especialidades
+GET http://localhost:3306/allrelacaodocespe
+content-Type: "application/json"
+
+###
+# Busca Todas as Turmas
 GET http://localhost:3306/turmas
 content-Type: "application/json"
+
+###
+# Precisa ser modificado, está apresentando erro
+POST http://localhost:3306/turmas
+content-Type: "application/json"
+
+{
+    "id": 6,
+    "nome": "Marte",
+    "modulo": "0"
+}
+
+###
+# Busca Estudantes pelo nome
+GET http://localhost:3306/estudantes/neto
+content-Type: "application/json"
+
+###
+# Busca Todos os Estudantes
+GET http://localhost:3306/estudantes
+content-type: "application/json"
+
+###
+# Busca todos os Docentes
+GET http://localhost:3306/docentes
+content-type: "application-json"
+
+###
+# Busca Docentes pelo nome
+GET http://localhost:3306/docentes/douglas
+content-type: "application-json"
+
+###
+# Mudar modulo da turma
+PUT http://localhost:3306/turmas/1
+content-type: "application-json"
+
+{
+    "modulo": "Modulo 1"
+}
+
+###
+# Mudar Turma do estudante
+PUT http://localhost:3306/estudantes/1
+content-type: "application-json"
+
+{
+    "turma_id": 2 
+}
