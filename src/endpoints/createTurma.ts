@@ -20,7 +20,7 @@ export const createTurma = async (req: Request, res: Response) => {
         turmasDB.criarTurma(newTurma)
     
         res.status(201).send("Turma criada com sucesso!")
-    } catch (error) {
-        res.status(errorCode).send("Erro inesperado")
+    } catch (error: any) {
+        res.status(errorCode).send({ message: error.message })
     }
 } 

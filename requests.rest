@@ -6,6 +6,7 @@ GET http://localhost:3306/turmas
 content-Type: "application/json"
 
 ###
+//Precisa ser modificado, está apresentando erro
 POST http://localhost:3306/turmas
 content-Type: "application/json"
 
@@ -14,3 +15,11 @@ content-Type: "application/json"
     "nome": "Marte",
     "modulo": "0"
 }
+
+###
+GET http://localhost:3306/estudantes/neto
+content-Type: "application/json"
+
+###
+GET http://localhost:3306/estudantes
+content-type: "application/json"
