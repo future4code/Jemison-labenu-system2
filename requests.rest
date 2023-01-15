@@ -1,2 +1,16 @@
+GET http://localhost:3306/allrelacaodocespe
+content-Type: "application/json"
+
+###
 GET http://localhost:3306/turmas
 content-Type: "application/json"
+
+###
+POST http://localhost:3306/turmas
+content-Type: "application/json"
+
+{
+    "id": 6,
+    "nome": "Marte",
+    "modulo": "0"
+}
