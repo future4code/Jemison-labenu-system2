@@ -24,15 +24,30 @@ export class UsuariosDataBase {
     return usuario;
   };
 
-  public buscarDocente = async (id: number) => {
-    const usuarios = await this.connection("Docentes").select("id", "nome");
-    return usuarios;
-  };
-
   public buscarEstudanteNome = async (nome: string) => {
     const usuarios = await this.connection("Estudantes")
     .select("id", "nome")
     .where("nome", "like", `%${nome}%`)
     return usuarios;
   };
+
+  public buscarDocente = async (id: number) => {
+    const usuarios = await this.connection("Docentes").select("id", "nome");
+    return usuarios;
+  };
+
+  public buscarDocenteNome = async (nome: string) => {
+    const usuarios = await this.connection("Docentes")
+    .select("id", "nome")
+    .where("nome", "like", `%${nome}%`);
+    return usuarios;
+  };
+
+  public mudarTurmaEstudante = async (id: number, turma_id: number) => {
+    const estudante = await this.connection('Estudantes')
+    .update({turma_id})
+    .where({id: id});
+    return estudante;
+}
+  
 }

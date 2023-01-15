@@ -4,6 +4,10 @@ import { getAllTurmas } from './endpoints/getAllTurmas';
 import { createTurma } from './endpoints/createTurma';
 import { getEstudNome } from './endpoints/getEstudNome';
 import { getAllEstudantes } from './endpoints/getAllEstudantes';
+import { getAllDocentes } from './endpoints/getAllDocentes';
+import { getDocenteNome } from './endpoints/getDocenteNome'
+import { putModuloTurma } from './endpoints/putModuloTurma';
+import { putEstudTurmas } from './endpoints/putEstudTurma';
 
 app.get("/allrelacaodocespe", getAllRelacaoDocEspe)
 
@@ -14,3 +18,11 @@ app.post("/turmas", createTurma)
 app.get("/estudantes/:nome", getEstudNome)
 
 app.get("/estudantes", getAllEstudantes)
+
+app.get("/docentes", getAllDocentes)
+
+app.get("/docentes/:nome", getDocenteNome)
+
+app.put("/turmas/:id", putModuloTurma)
+
+app.put("/estudantes/:id", putEstudTurmas)

@@ -1,4 +1,7 @@
 export class Usuarios {
+    mudarTurmaEstudante(id: number, turma_id: any) {
+        throw new Error('Method not implemented.');
+    }
     private id?: number;
     private nome: string;
     private email: string;

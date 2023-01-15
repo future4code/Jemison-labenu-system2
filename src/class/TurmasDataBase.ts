@@ -1,3 +1,4 @@
+import { connection } from './../data/connection';
 import { Knex } from 'knex';
 import { Turmas } from './Turmas';
 
@@ -20,4 +21,12 @@ export class TurmasDataBase {
         const turmas = await this.connection('Turmas').select('id', 'nome');
         return turmas;
     }
+
+    public mudarModuloTurma = async (id: number, modulo: string) => {
+        const turma = await this.connection('Turmas')
+        .update({modulo: modulo})
+        .where({id: id});
+        return turma;
+    }
+
 }
