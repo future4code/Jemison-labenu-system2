@@ -1,5 +1,12 @@
-import { MODULOS } from "../models/Turmas";
-
+const enum MODULOS {
+    MODULO1 = "MODULO1",
+    MODULO2 = "MODULO2",
+    MODULO3 = "MODULO3",
+    MODULO4 = "MODULO4",
+    MODULO5 = "MODULO5",
+    MODULO6 = "MODULO6",
+    MODULO7 = "MODULO7"
+}
 export class Turma {
     private id?: number;
     private nome: string;

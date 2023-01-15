@@ -1,5 +1,5 @@
 export class DocentesEspecialidades {
-    private id?: number | undefined;
+    private id: number | undefined;
     private docente_id: number;
     private especialidade_id: number;
 
@@ -19,5 +19,21 @@ export class DocentesEspecialidades {
 
     public getEspecialidade_id(): number {
         return this.especialidade_id;
+    }
+
+    public getAllRelations(): string {
+        return `Docente: ${this.docente_id} - Especialidade: ${this.especialidade_id}`;
+    }
+
+    public setId(id: number): void {
+        this.id = id;
+    }
+
+    public setDocente_id(newDocente_id: number): void {
+        this.docente_id = newDocente_id;
+    }
+
+    public setEspecialidade_id(newEspecialidade_id: number) {
+        this.especialidade_id = newEspecialidade_id;
     }
 }
