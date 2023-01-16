@@ -13,9 +13,7 @@ POST http://localhost:3306/turmas
 content-Type: "application/json"
 
 {
-    "id": 6,
-    "nome": "Marte",
-    "modulo": "0"
+    "nome": "Jupter",
 }
 
 ###
@@ -54,4 +52,17 @@ content-type: "application-json"
 
 {
     "turma_id": 2 
+}
+
+###
+# Criar Estudante
+POST http://localhost:3306/estudantes
+content-type: "application-json"
+
+{
+    "id": 4,
+    "nome": "Douglas",
+    "email": "gdgdged@gmail.com",
+    "date_nasc": "1999-01-01",
+    "turma_id": 1
 }
