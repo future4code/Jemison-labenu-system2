@@ -63,24 +63,62 @@ Representa docentes da instituição. Docentes com cadastro novo começam sem al
 
 **`especialidades`**: uma lista de especialidades relacionadas à pessoa
 
-**`Funcionalidades`**
 
-→ Buscar turmas ativas;
-→ Buscar estudantes através do nome;
-→ Buscar todas as pessoas docentes;
-→ Buscar todas os estudantes;
-→ Buscar docentes pelo nome;
+**`Tecnologias`**
 
-**`Funcionalidades a se fazer`**
-→ Criar turma;
-→ Mudar turma de módulo;
-→ Criar estudante;
-→ Mudar estudante de turma;
-→ Mudar docente de turma;
-→ Exibir todas as pessoas (estudantes e docentes) que estão em uma mesma turma;
-Esta funcionalidade deve utilizar o **polimorfismo** para trazer ao mesmo tempo estudantes e discentes de uma mesma turma;
-→ Exibir estudantes que possuam o mesmo hobby;
-→ Exibir todas as pessoas docentes que sejam especialistas em POO
-→ Exibir todas as pessoas de um mesmo signo (docentes e estudantes)
+→ Node.js
+→ Typescript
+→ Express
+→ Knex
+→ MySQL
+→ Dotenv
+→ Cors
+→ Ts-node-dev
+→ Knex
 
+
+
+**`Como rodar o projeto`**
+
+→ Clone o repositório
+→ Instale as dependências com `npm install` ou `yarn`
+→ Execute `npm run start` para rodar a aplicação ou `yarn start`
+→ Execute `npm run dev` para rodar a aplicação em modo de desenvolvimento ou `yarn dev`
+
+
+**`Endpoints funcionando`**
+
+→ Buscar estudantes através do nome
+→ Buscar todas as pessoas docentes
+→ Buscar todas os estudantes
+→ Buscar docentes pelo nome
+
+**`Endpoints em desenvolvimento`**
+→ Criar turma - Ainda em desenvolvimento
+→ Mudar turma de módulo - Ainda em desenvolvimento
+→ Criar estudante - Ainda em desenvolvimento
+→ Mudar estudante de turma - Ainda em desenvolvimento
+→ Mudar docente de turma - Ainda em desenvolvimento
+→ Exibir todas as pessoas (estudantes e docentes) que estão em uma mesma turma - Ainda em desenvolvimento
+→ Exibir estudantes que possuam o mesmo hobby - Ainda em desenvolvimento
+→ Exibir todas as pessoas docentes que sejam especialistas em POO - Ainda em desenvolvimento
+→ Exibir todas as pessoas de um mesmo signo (docentes e estudantes) - Ainda em desenvolvimento
+→ Buscar turmas ativas - Ainda em desenvolvimento
+
+**`Documentação`**
+
+→ https://documenter.getpostman.com/view/22370646/2s8ZDU4Pc7
+
+**`Link do render`**
+
+→ https://labenu-system-y21m.onrender.com
+
+
+**`Pessoas Desenvolvedoras`**
+
+→ [Douglas Werner](https://github.com/DouglasWerner)
+
+→ [Daniel Souza](https://github.com/DanielSiilva)
+
+→ [Matheus Queiroz](https://github.com/matheusqueirozds)
 

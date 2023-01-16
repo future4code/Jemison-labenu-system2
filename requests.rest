@@ -1,15 +1,15 @@
 # Busca todas as relações entre docentes e especialidades
-GET http://localhost:3306/allrelacaodocespe
+GET https://labenu-system-y21m.onrender.com/allrelacaodocespe
 content-Type: "application/json"
 
 ###
 # Busca Todas as Turmas
-GET http://localhost:3306/turmas
+GET https://labenu-system-y21m.onrender.com/turmas
 content-Type: "application/json"
 
 ###
 # Precisa ser modificado, está apresentando erro
-POST http://localhost:3306/turmas
+POST https://labenu-system-y21m.onrender.com/turmas
 content-Type: "application/json"
 
 {
@@ -18,27 +18,27 @@ content-Type: "application/json"
 
 ###
 # Busca Estudantes pelo nome
-GET http://localhost:3306/estudantes/neto
+GET https://labenu-system-y21m.onrender.com/estudantes/neto
 content-Type: "application/json"
 
 ###
 # Busca Todos os Estudantes
-GET http://localhost:3306/estudantes
+GET https://labenu-system-y21m.onrender.com/estudantes
 content-type: "application/json"
 
 ###
 # Busca todos os Docentes
-GET http://localhost:3306/docentes
+GET https://labenu-system-y21m.onrender.com/docentes
 content-type: "application-json"
 
 ###
 # Busca Docentes pelo nome
-GET http://localhost:3306/docentes/douglas
+GET https://labenu-system-y21m.onrender.com/docentes/douglas
 content-type: "application-json"
 
 ###
 # Mudar modulo da turma
-PUT http://localhost:3306/turmas/1
+PUT https://labenu-system-y21m.onrender.com/turmas/1
 content-type: "application-json"
 
 {
@@ -47,7 +47,7 @@ content-type: "application-json"
 
 ###
 # Mudar Turma do estudante
-PUT http://localhost:3306/estudantes/1
+PUT https://labenu-system-y21m.onrender.com/estudantes/1
 content-type: "application-json"
 
 {
@@ -56,7 +56,7 @@ content-type: "application-json"
 
 ###
 # Criar Estudante
-POST http://localhost:3306/estudantes
+POST https://labenu-system-y21m.onrender.com/estudantes
 content-type: "application-json"
 
 {
