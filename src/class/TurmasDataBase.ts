@@ -1,4 +1,3 @@
-import { connection } from './../data/connection';
 import { Knex } from 'knex';
 import { Turmas } from './Turmas';
 
@@ -9,8 +8,9 @@ export class TurmasDataBase {
     }
 
     public criarTurma = async (newTurma: Turmas) => {
-        await this.connection('Turmas').insert(newTurma);
+        await this.connection('Turmas').insert({newTurma});
     }
+
 
     public buscarTurma = async () => {
         const turma = await this.connection('Turmas').select();

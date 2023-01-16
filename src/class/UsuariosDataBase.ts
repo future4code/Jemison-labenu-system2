@@ -11,7 +11,8 @@ export class UsuariosDataBase {
   };
 
   public criarEstudante = async (newEstudante: Usuarios) => {
-    await this.connection("Estudantes").insert(newEstudante);
+    const usuarios = await this.connection("Estudantes").insert(newEstudante);
+    return usuarios;
   };
 
   public buscarDocentes = async () => {

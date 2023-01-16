@@ -6,15 +6,10 @@ import { Turmas } from '../class/Turmas';
 
 export const createTurma = async (req: Request, res: Response) => {
     let errorCode: number = 400;
-    try {
-        const id = req.body.id;
-        const nome = req.body.nome;
-        const modulo = req.body.modulo;
+    try {  
+        
+        const { id, nome, modulo } = req.body;
 
-        if (!nome) {
-            errorCode = 422;
-            throw new Error("Body inválido!");
-        }
         const newTurma = new Turmas(id, nome, modulo)
         const turmasDB = new TurmasDataBase(connection)
         turmasDB.criarTurma(newTurma)
