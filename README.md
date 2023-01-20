@@ -122,4 +122,6 @@ Representa docentes da instituição. Docentes com cadastro novo começam sem al
 
 → [Matheus Queiroz](https://github.com/matheusqueirozds)
 
-image.png
+#Imagens das tabelas criadas
+
+![image](https://user-images.githubusercontent.com/97309506/213597127-6d7767a8-3ae7-4520-9f80-f8aaf9accedb.png)
