@@ -124,4 +124,43 @@ Representa docentes da instituição. Docentes com cadastro novo começam sem al
 
 #Imagens das tabelas criadas
 
+-> Esquema completo
+
 ![image](https://user-images.githubusercontent.com/97309506/213597127-6d7767a8-3ae7-4520-9f80-f8aaf9accedb.png)
+
+-> Tabela Turmas
+
+![image](https://user-images.githubusercontent.com/97309506/213870336-bc0e234c-005e-471f-a6da-f0a9110f0efb.png)
+
+-> Tabela Estudantes
+
+![image](https://user-images.githubusercontent.com/97309506/213870397-9bbac4d5-df3b-49e6-a2c5-88498e66ce81.png)
+
+-> Tabela Hobbies
+
+![image](https://user-images.githubusercontent.com/97309506/213870470-38da6dbe-bc2d-43c5-b456-c64ec1770a1b.png)
+
+-> Tabela Estudante_Hobbies 
+
+![image](https://user-images.githubusercontent.com/97309506/213870517-3766ae77-9521-4080-8a09-340bb13638d1.png)
+
+-> Tabela Docentes
+
+![image](https://user-images.githubusercontent.com/97309506/213870792-a5cadba0-cb4b-49d4-b66b-3a85c27818ff.png)
+
+-> Tabela Especialidades
+
+![image](https://user-images.githubusercontent.com/97309506/213870850-7bc1f1b3-5c5f-42bc-8d94-c51eff7c3f65.png)
+
+-> Tabela Docente_Especialidades
+
+![image](https://user-images.githubusercontent.com/97309506/213870894-705881a4-f68a-4f26-8806-f1f55193b70f.png)
+
+-> Tabela Docentes_Estudantes_Turmas
+
+![image](https://user-images.githubusercontent.com/97309506/213870922-a0d224eb-fd15-4417-8f5b-de02bd609e7f.png)
+
+
+
+
+
