@@ -1,0 +1,68 @@
+# Busca todas as relações entre docentes e especialidades
+GET https://labenu-system-y21m.onrender.com/allrelacaodocespe
+content-Type: "application/json"
+
+###
+# Busca Todas as Turmas
+GET https://labenu-system-y21m.onrender.com/turmas
+content-Type: "application/json"
+
+###
+# Precisa ser modificado, está apresentando erro
+POST https://labenu-system-y21m.onrender.com/turmas
+content-Type: "application/json"
+
+{
+    "nome": "Jupter",
+}
+
+###
+# Busca Estudantes pelo nome
+GET https://labenu-system-y21m.onrender.com/estudantes/neto
+content-Type: "application/json"
+
+###
+# Busca Todos os Estudantes
+GET https://labenu-system-y21m.onrender.com/estudantes
+content-type: "application/json"
+
+###
+# Busca todos os Docentes
+GET https://labenu-system-y21m.onrender.com/docentes
+content-type: "application-json"
+
+###
+# Busca Docentes pelo nome
+GET https://labenu-system-y21m.onrender.com/docentes/douglas
+content-type: "application-json"
+
+###
+# Mudar modulo da turma
+PUT https://labenu-system-y21m.onrender.com/turmas/1
+content-type: "application-json"
+
+{
+    "modulo": "Modulo 1"
+}
+
+###
+# Mudar Turma do estudante
+PUT https://labenu-system-y21m.onrender.com/estudantes/1
+content-type: "application-json"
+
+{
+    "turma_id": 2 
+}
+
+###
+# Criar Estudante
+POST https://labenu-system-y21m.onrender.com/estudantes
+content-type: "application-json"
+
+{
+    "id": 4,
+    "nome": "Douglas",
+    "email": "gdgdged@gmail.com",
+    "date_nasc": "1999-01-01",
+    "turma_id": 1
+}

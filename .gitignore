@@ -1,0 +1,7 @@
+.env
+.DS_STORE
+node_modules
+build
+request.rest
+.vscode
+```
